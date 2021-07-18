@@ -26,6 +26,7 @@ else:
 
 time.sleep(1)
 
+# scrape passport data from page
 name = driver.find_element(By.XPATH,
                            '/html/body/lk-root/main/ng-component/div/lk-rf-passport/div[2]/'
                            'lk-doc-card/section/div/div[1]/h4').text
