@@ -4,7 +4,7 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-login = input("Введите ваш логин от сайта госуслуг: ")
+login = input("Введите ваш телефон: ")
 password = input("Введите ваш пароль от сайта госуслуг: ")
 chromedriver = "/home/twocb/Downloads/chromedriver"  # point to chromedriver location
 driver = webdriver.Chrome(executable_path=chromedriver)
